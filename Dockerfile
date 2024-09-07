@@ -8,7 +8,7 @@
 # - Go packages (protoc-gen-go and protoc-gen-twirp),
 # - apt packages (unzip).
 
-FROM golang:1.19.1
+FROM golang:1.23.0
 
 WORKDIR /work
 
